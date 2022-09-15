@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "696af597-922d-48d9-ad47-dd88247a81fa",
+		"name": "Sooftoo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16914428"
+	},
+	"item": [
+		{
+			"name": "softooget",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/softoo/api/v1/softoo/getstocklevel?sku=PRO481716/07/95",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"softoo",
+						"api",
+						"v1",
+						"softoo",
+						"getstocklevel"
+					],
+					"query": [
+						{
+							"key": "sku",
+							"value": "PRO481716/07/95"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
